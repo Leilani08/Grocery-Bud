@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F1F5F8;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+
+}
+.card{
+    background-color: white;
+    padding: 50px;
+   border-radius: 10px;
+   letter-spacing: 5px;
+   font-family: 'Arial ',  sans-serif;
+   height: 150px;
+   box-shadow: 1px 4px 4px rgba(0.1, 0.1, 0.1, 0.1); /* Add shadow to the bottom */
+}
+input{
+    
+    width: 350px;
+    height: 20px;
+    background-color: #F1F5F8;
+    margin-top: 25px;
+    padding: 4px 4px 4px 16px;
+    border: none;
+    border-radius: 5px 0 0 5px ;
+    
+}
+#subM{
+    background-color: #A5D5F8;
+    width: 5rem;
+    height: 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    height: 27px;
+    margin-bottom: 15px;
+
+}
+p{
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+}
